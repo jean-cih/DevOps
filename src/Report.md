@@ -704,7 +704,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
     ![](Assets/10.3.jpg)
 
 - Выяснилось, что:
-    - Размер swap: 2354172 килобайта (= 2.25 Гб);
+    - Размер swap: 2097148 килобайта (= 2 Гб);
 
 ## Part 11. Использование утилиты **df** 
 
