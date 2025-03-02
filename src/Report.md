@@ -894,7 +894,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
     ![](Assets/14.3.jpg)
 
-- Время последней успешной авторизации: jan 23, 15:15:20
+- Время последней успешной авторизации: Mar 14:48:03
 - Имя пользователя: newuser
 - Метод входа в систему: by uid = 0 (User Identifier). Суперпользователь всегда должен иметь UID, равный нулю (0).
 
