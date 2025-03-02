@@ -623,7 +623,7 @@ sudo vim /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
 
     ![](Assets/9.1.jpg)
 
-  - uptime - 34 минуты;
+  - uptime - 20 минуты;
   - количество авторизованных пользователей - 1;
   - общую загрузку системы - 0.00;
   - общее количество процессов - 136;
