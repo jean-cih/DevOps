@@ -1,4 +1,4 @@
-# Linux Monitoring Tool v1.0
+# Linux Monitoring v1.0
 
 Bash-скрипты для исследования системы и файловой системы в Linux.
 
