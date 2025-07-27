@@ -18,7 +18,7 @@ $ sudo apt install ipcalc
 ipcalc 192.167.38.54/13
 ```
 
-![](..\misc\report_images\image-20250625125927652.png)
+![](\report_images\image-20250625125927652.png)
 
 ##### 2) преобразование маски *255.255.255.0* в префиксную и двоичную, */15* в обычную и двоичную, *11111111.11111111.11111111.11110000* в обычную и префиксную
 
@@ -30,7 +30,7 @@ ipcalc 192.167.38.54/13
 ipcalc 255.255.255.0
 ```
 
-![image-20250625130615643](..misc\report_images\image-20250625130615643.png)
+![image-20250625130615643](\report_images\image-20250625130615643.png)
 
 ​	Преобразование маски  */15* в обычную = **255.254.0.0**
 
@@ -40,7 +40,7 @@ ipcalc 255.255.255.0
 ipcalc 0.0.0.0/15
 ```
 
-![image-20250625130835468](..\misc\report_images\image-20250625130835468.png)
+![image-20250625130835468](\report_images\image-20250625130835468.png)
 
 ​	Преобразование маски  *11111111.11111111.11111111.11110000* в обычную = **255.255.255.240**
 
@@ -50,7 +50,7 @@ ipcalc 0.0.0.0/15
 ipcalc 0.0.0.0/255.255.255.240
 ```
 
-![image-20250625131358075](..\misc\report_images\image-20250625131358075.png)
+![image-20250625131358075](\report_images\image-20250625131358075.png)
 
 ##### 3) минимальный и максимальный хост в сети *12.167.38.4* с масками: */8* , *11111111.11111111.00000000.00000000* , *255.255.254.0* и */4*
 
@@ -64,7 +64,7 @@ ipcalc 0.0.0.0/255.255.255.240
 ipcalc 12.167.38.4/8
 ```
 
-![image-20250625131446725](..\misc\report_images\image-20250625131446725.png)
+![image-20250625131446725](\report_images\image-20250625131446725.png)
 
 ​	Сетевой адрес в сети *12.167.38.4* с маской *11111111.11111111.00000000.00000000* = 12.167.0.0/16
 
@@ -76,7 +76,7 @@ ipcalc 12.167.38.4/8
 ipcalc 12.167.38.4/255.255.0.0
 ```
 
-![image-20250625131559244](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250625131559244.png)
+![image-20250625131559244](\report_images\image-20250625131559244.png)
 
 ​	Сетевой адрес в сети *12.167.38.4* с маской *255.255.254.0* = 12.167.38.0/23
 
@@ -88,7 +88,7 @@ ipcalc 12.167.38.4/255.255.0.0
 ipcalc 12.167.38.4/255.255.254.0
 ```
 
-![image-20250625131633035](..\misc\report_images\image-20250625131633035.png)
+![image-20250625131633035](\report_images\image-20250625131633035.png)
 
 ​	Сетевой адрес в сети *12.167.38.4* с маской */4* = 0.0.0.0/4
 
@@ -100,7 +100,7 @@ ipcalc 12.167.38.4/255.255.254.0
 ipcalc 12.167.38.4/4
 ```
 
-![image-20250625131914880](..\misc\report_images\image-20250625131914880.png)
+![image-20250625131914880](\report_images\image-20250625131914880.png)
 
 #### 1.2. локальный хост
 
@@ -116,25 +116,25 @@ ipcalc 12.167.38.4/4
 ipcalc 194.34.23.100/8
 ```
 
-![image-20250625132828542](..\misc\report_images\image-20250625132828542.png)
+![image-20250625132828542](\report_images\image-20250625132828542.png)
 
 ```
 ipcalc 127.0.0.2/8
 ```
 
-![image-20250625132902052](..\misc\report_images\image-20250625132902052.png)
+![image-20250625132902052](\report_images\image-20250625132902052.png)
 
 ```
 ipcalc 127.1.0.1/8
 ```
 
-![image-20250625132922467](..\misc\report_images\image-20250625132922467.png)
+![image-20250625132922467](\report_images\image-20250625132922467.png)
 
 ```
 ipcalc 128.0.0.1/8
 ```
 
-![image-20250625132957944](..\misc\report_images\image-20250625132957944.png)
+![image-20250625132957944](\report_images\image-20250625132957944.png)
 
 #### 1.3. Диапазоны и сегменты сети
 
@@ -146,31 +146,31 @@ ipcalc 128.0.0.1/8
 ipcalc 134.43.0.2
 ```
 
-![image-20250625133336433](..\misc\report_images\image-20250625133336433.png)
+![image-20250625133336433](\report_images\image-20250625133336433.png)
 
 ```
 ipcalc 172.0.2.1
 ```
 
-![image-20250625133353293](..\misc\report_images\image-20250625133353293.png)
+![image-20250625133353293](\report_images\image-20250625133353293.png)
 
 ```
 ipcalc 172.68.0.2
 ```
 
-![image-20250625133412891](..\misc\report_images\image-20250625133412891.png)
+![image-20250625133412891](\report_images\image-20250625133412891.png)
 
 ```
 ipcalc 192.172.0.1
 ```
 
-![image-20250625133432216](..\misc\report_images\image-20250625133432216.png)
+![image-20250625133432216](\report_images\image-20250625133432216.png)
 
 ```
 ipcalc 192.169.168.1
 ```
 
-![image-20250625133456004](..\misc\report_images\image-20250625133456004.png)
+![image-20250625133456004](\report_images\image-20250625133456004.png)
 
 ​	*Частные: **10.0.0.45, 172.20.250.4, 192.168.4.2, 172.16.255.255, 10.10.10.10***
 
@@ -178,31 +178,31 @@ ipcalc 192.169.168.1
 ipcalc 10.0.0.45
 ```
 
-![image-20250625133117411](..\misc\report_images\image-20250625133117411.png)
+![image-20250625133117411](\report_images\image-20250625133117411.png)
 
 ```
 ipcalc 172.20.250.4
 ```
 
-![image-20250625133139449](..\misc\report_images\image-20250625133139449.png)
+![image-20250625133139449](\report_images\image-20250625133139449.png)
 
 ```
 ipcalc 192.168.4.2
 ```
 
-![image-20250625133159161](..\misc\report_images\image-20250625133159161.png)
+![image-20250625133159161](\report_images\image-20250625133159161.png)
 
 ```
 ipcalc 172.16.255.255
 ```
 
-![image-20250625133244631](..\misc\report_images\image-20250625133244631.png)
+![image-20250625133244631](\report_images\image-20250625133244631.png)
 
 ```
 ipcalc 10.10.10.10
 ```
 
-![image-20250625133316021](..\misc\report_images\image-20250625133316021.png)
+![image-20250625133316021](\report_images\image-20250625133316021.png)
 
 ##### 2) какие из перечисленных IP-адресов шлюза возможны для сети *10.10.0.0/18 :* *10.0.0.1* , *10.10.0.2* , *10.10.10.10* , *10.10.100.1* , *10.10.1.255*
 
@@ -222,7 +222,7 @@ ipcalc 10.10.10.10
 ipcalc 10.10.0.0/18
 ```
 
-![image-20250625133646715](..\misc\report_images\image-20250625133646715.png)
+![image-20250625133646715](\report_images\image-20250625133646715.png)
 
 ## Часть 2. Статическая маршрутизация между двумя машинами
 
@@ -238,11 +238,11 @@ ip a
 
 ​	**<u>ws1</u>**
 
-![image-20250626152711222](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626152711222.png)
+![image-20250626152711222](\report_images\image-20250626152711222.png)
 
 ​	**<u>ws2</u>**
 
-![image-20250626152320352](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626152320352.png)
+![image-20250626152320352](\report_images\image-20250626152320352.png)
 
 > Определение: `enp0s8` - это имя сетевого интерфейса (сетевой карты) в операционных системах Linux.
 >
@@ -262,11 +262,11 @@ ip a
 
   ​	**<u>ws1</u>**
 
-  ![image-20250626152847448](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626152847448.png)
+  ![image-20250626152847448](\report_images\image-20250626152847448.png)
 
   ​	**<u>ws2</u>**
 
-  ![image-20250626153004500](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153004500.png)
+  ![image-20250626153004500](\report_images\image-20250626153004500.png)
 
 ##### Перезапустим сетевую службу:
 
@@ -276,11 +276,11 @@ sudo netplan apply
 
 ​	**<u>ws1</u>**
 
-![image-20250625142345856](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250625142345856.png)
+![image-20250625142345856](\report_images\image-20250625142345856.png)
 
 ​	**<u>ws2</u>**
 
-![image-20250625142409948](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250625142409948.png)
+![image-20250625142409948](\report_images\image-20250625142409948.png)
 
 #### 2.1 Добавление статического маршрута вручную
 
@@ -300,7 +300,7 @@ ip r add
 sudo ip r add 172.24.116.8 dev enp0s8
 ```
 
-![image-20250626153229104](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153229104.png)
+![image-20250626153229104](\report_images\image-20250626153229104.png)
 
 ​	**<u>ws2</u>**
 
@@ -308,7 +308,7 @@ sudo ip r add 172.24.116.8 dev enp0s8
 sudo ip r add 192.168.100.10 dev enp0s8
 ```
 
-![image-20250626153217866](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153217866.png)
+![image-20250626153217866](\report_images\image-20250626153217866.png)
 
 #### 2.2. Добавление статического маршрута с сохранением
 
@@ -324,11 +324,11 @@ reboot
 
   ​	**<u>ws1</u>**
 
-  ![image-20250626153403566](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153403566.png)
+  ![image-20250626153403566](\report_images\image-20250626153403566.png)
 
   ​	**<u>ws2</u>**
 
-  ![image-20250626153524453](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153524453.png)
+  ![image-20250626153524453](\report_images\image-20250626153524453.png)
 
 ##### Проверим соединение между машинами.
 
@@ -338,7 +338,7 @@ reboot
 ping -c 5 172.24.116.8
 ```
 
-![image-20250626153640709](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153640709.png)
+![image-20250626153640709](\report_images\image-20250626153640709.png)
 
 ​	**<u>ws2</u>**
 
@@ -346,7 +346,7 @@ ping -c 5 172.24.116.8
 ping -c 192.168.100.10
 ```
 
-![image-20250626153632031](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626153632031.png)
+![image-20250626153632031](\report_images\image-20250626153632031.png)
 
 ## Часть 3. Утилита **iperf3**
 
@@ -377,13 +377,13 @@ sudo apt install iperf3
 iperf3 -s -f K
 ```
 
-![image-20250626164805354](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626164805354.png)
+![image-20250626164805354](\report_images\image-20250626164805354.png)
 
 ```
 iperf3 -c 192.168.100.10 -f K
 ```
 
-![image-20250626164822416](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626164822416.png)
+![image-20250626164822416](\report_images\image-20250626164822416.png)
 
 *Скорость соединения между машинами: 69557 КБ/с*
 
@@ -419,11 +419,11 @@ iptables -X
 
   ​	**<u>ws1</u>**
 
-  ![image-20250626171050779](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171050779.png)
+  ![image-20250626171050779](\report_images\image-20250626171050779.png)
 
   ​	**<u>ws2</u>**
 
-  ![image-20250626171304098](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171304098.png)
+  ![image-20250626171304098](\report_images\image-20250626171304098.png)
 
 ##### Запустим файлы на обеих машинах с помощью команд:
 
@@ -437,15 +437,15 @@ sudo /etc/firewall.sh
 
   ​	**ws1**
 
-  ![image-20250626171742232](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171742232.png)
+  ![image-20250626171742232](\report_images\image-20250626171742232.png)
 
-  ![image-20250626171959874](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171959874.png)
+  ![image-20250626171959874](\report_images\image-20250626171959874.png)
 
   ​	**ws2**
 
-  ![image-20250626171747293](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171747293.png)
+  ![image-20250626171747293](\report_images\image-20250626171747293.png)
 
-  ![image-20250626171938154](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626171938154.png)
+  ![image-20250626171938154](\report_images\image-20250626171938154.png)
 
   *Если сначала стоит запрещающее правило, то оно имеет приоритет перед последующим разрешающим. Таким образом ws2 с ws1 должна пинговаться, а ws1 с ws2 не должна.*
 
@@ -463,9 +463,9 @@ ping -c 5 172.24.116.8
 nmap -Pn 172.24.116.8
 ```
 
-![image-20250626172219457](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626172219457.png)
+![image-20250626172219457](\report_images\image-20250626172219457.png)
 
-![image-20250626172402157](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626172402157.png)
+![image-20250626172402157](\report_images\image-20250626172402157.png)
 
 ​	**ws2**
 
@@ -475,15 +475,15 @@ ping -c 5 192.168.100.10
 nmap -Pn 192.168.100.10
 ```
 
-![image-20250626172234881](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626172234881.png)
+![image-20250626172234881](\report_images\image-20250626172234881.png)
 
-![image-20250626172425454](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626172425454.png)
+![image-20250626172425454](\report_images\image-20250626172425454.png)
 
 > Nmap (Network Mapper) — это мощный инструмент для сканирования сетей и аудита безопасности
 
 ## Часть 5. Статическая сетевая маршрутизация
 
-![image-20250626192144353](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626192144353.png)
+![image-20250626192144353](\report_images\image-20250626192144353.png)
 
 ##### Запустим пять виртуальных машин (3 рабочие станции (ws11, ws21, ws22) и 2 маршрутизатора (r1, r2))
 
@@ -495,23 +495,23 @@ nmap -Pn 192.168.100.10
 
   ​	**ws11**
 
-  ![image-20250629153218306](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629153218306.png)
+  ![image-20250629153218306](\report_images\image-20250629153218306.png)
 
   ​	**ws21**
 
-  ![image-20250629153459333](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629153459333.png)
+  ![image-20250629153459333](\report_images\image-20250629153459333.png)
 
   ​	**ws22**
 
-  ![image-20250629155818952](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629155818952.png)
+  ![image-20250629155818952](\report_images\image-20250629155818952.png)
 
   ​	**r1**
 
-  ![image-20250629162340684](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629162340684.png)
+  ![image-20250629162340684](\report_images\image-20250629162340684.png)
 
   ​	**r2**
 
-  ![image-20250629162700188](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629162700188.png)
+  ![image-20250629162700188](\report_images\image-20250629162700188.png)
 
 ##### Перезапустим сетевую службу:
 
@@ -529,43 +529,43 @@ sudo netplan apply
 
   ​	**ws11**
 
-  ![image-20250626215414886](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626215414886.png)
+  ![image-20250626215414886](\report_images\image-20250626215414886.png)
 
   ​	**ws21**
 
-  ![image-20250626220557342](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626220557342.png)
+  ![image-20250626220557342](\report_images\image-20250626220557342.png)
 
   ​	**ws22**
 
-  ![image-20250626220907089](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626220907089.png)
+  ![image-20250626220907089](\report_images\image-20250626220907089.png)
 
   ​	**r1**
 
-  ![image-20250626215335981](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626215335981.png)
+  ![image-20250626215335981](\report_images\image-20250626215335981.png)
 
   ​	**r2**
 
-  ![image-20250626222507866](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626222507866.png)
+  ![image-20250626222507866](\report_images\image-20250626222507866.png)
 
   **Также выполним ping ws22 с ws21. **
 
   ​	**ws21**
 
-  ![image-20250626222902897](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626222902897.png)
+  ![image-20250626222902897](\report_images\image-20250626222902897.png)
 
   ​	**ws22**
 
-  ![image-20250626222936811](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626222936811.png)
+  ![image-20250626222936811](\report_images\image-20250626222936811.png)
 
   **Аналогично выполним ping r1 с ws11.**
 
   ​	**ws11**
 
-  ![image-20250626223314290](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626223314290.png)
+  ![image-20250626223314290](\report_images\image-20250626223314290.png)
   
   ​	**r1**
   
-  ![image-20250626223217695](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626223217695.png)
+  ![image-20250626223217695](\report_images\image-20250626223217695.png)
 
 #### 5.2 Включение IP-переадресации.
 
@@ -581,11 +581,11 @@ sudo sysctl -w net.ipv4.ip_forward=1
 
   **r1**
 
-  ![image-20250626223851196](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626223851196.png)
+  ![image-20250626223851196](\report_images\image-20250626223851196.png)
 
   **r2**
 
-  ![image-20250629184522840](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629184522840.png)
+  ![image-20250629184522840](\report_images\image-20250629184522840.png)
 
 ##### Откроем файл */etc/sysctl.conf* и добавим следующую строку:
 
@@ -599,11 +599,11 @@ net.ipv4.ip_forward = 1
 
   **r1**
 
-  ![image-20250626224130621](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626224130621.png)
+  ![image-20250626224130621](\report_images\image-20250626224130621.png)
 
   **r2**
 
-  ![image-20250626224049413](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626224049413.png)
+  ![image-20250626224049413](\report_images\image-20250626224049413.png)
   
   > `sysctl` — это мощный инструмент для настройки и оптимизации параметров ядра Linux в реальном времени.
 
@@ -622,15 +622,15 @@ default via 10.10.0.1 dev eth0
 
   ​	**ws11**
 
-  ![image-20250629185812307](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629185812307.png)
+  ![image-20250629185812307](\report_images\image-20250629185812307.png)
 
   ​	**ws21**
 
-  ![image-20250629190004484](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629190004484.png)
+  ![image-20250629190004484](\report_images\image-20250629190004484.png)
 
   ​	**ws22**
 
-  ![image-20250629190341679](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629190341679.png)
+  ![image-20250629190341679](\report_images\image-20250629190341679.png)
 
 ##### С помощью команды `ip r` показываем, что добавился маршрут в таблицу маршрутизации:
 
@@ -638,15 +638,15 @@ default via 10.10.0.1 dev eth0
 
   ​	**ws11**
 
-  ![image-20250626232217676](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626232217676.png)
+  ![image-20250626232217676](\report_images\image-20250626232217676.png)
 
   ​	**ws21**
 
-  ![image-20250626232232932](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626232232932.png)
+  ![image-20250626232232932](\report_images\image-20250626232232932.png)
 
   ​	**ws22**
 
-  ![image-20250626232645002](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250626232645002.png)
+  ![image-20250626232645002](\report_images\image-20250626232645002.png)
   
   > `ip r` (сокращение от `ip route`) — это основной инструмент для работы с таблицами маршрутизации в современных Linux-системах.
 
@@ -660,11 +660,11 @@ sudo tcpdump -tn -i enp0s8
 
   ​	**ws11**
 
-  ![image-20250629191812384](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629191812384.png)
+  ![image-20250629191812384](\report_images\image-20250629191812384.png)
 
   ​	**r2**
 
-  ![image-20250629191829676](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629191829676.png)
+  ![image-20250629191829676](\report_images\image-20250629191829676.png)
   
   > `tcpdump` — это мощный инструмент для анализа сетевого трафика в Linux, который DevOps-инженеры используют для диагностики сетевых проблем, мониторинга трафика и отладки сетевых сервисов.
 
@@ -684,11 +684,11 @@ sudo tcpdump -tn -i enp0s8
 
   ​	**r1**
 
-  ![image-20250629192943351](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629192943351.png)
+  ![image-20250629192943351](\report_images\image-20250629192943351.png)
 
   ​	**r2**
 
-  ![image-20250629193131353](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629193131353.png)
+  ![image-20250629193131353](\report_images\image-20250629193131353.png)
 
 ##### С помощью команды`ip r` покажем таблицы маршрутизации на обоих маршрутизаторах. 
 
@@ -704,11 +704,11 @@ sudo tcpdump -tn -i enp0s8
 
   ​	**r1**
 
-  ![image-20250627135420162](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627135420162.png)
+  ![image-20250627135420162](\report_images\image-20250627135420162.png)
 
   ​	**r2**
 
-  ![image-20250627135434976](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627135434976.png)
+  ![image-20250627135434976](\report_images\image-20250627135434976.png)
 
 **На ws11 запустим команды:**
 
@@ -722,7 +722,7 @@ ip r list 0.0.0.0/0
 
   ​	**ws11**
 
-  ![image-20250629194538932](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629194538932.png)
+  ![image-20250629194538932](\report_images\image-20250629194538932.png)
 
   > Из вывода команд видно, что для сети 10.10.0.0/18 был выбран маршрут, отличный от 0.0.0.0/0, хотя он попадает под маршрут по-умолчанию. Это произошло потому, что если есть явный маршрут к подсети, который соответствует адресу назначения, система будет использовать этот маршрут, даже если задан маршрут по-умолчанию (default), так как маршруты к конкретным подсетям имеют более высокий приоритет.
 
@@ -748,11 +748,11 @@ tcpdump -tnv -i enp0s8
 
   ​	**ws11**
 
-  <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629195355422.png" alt="image-20250629195355422" style="zoom:67%;" />
+  <img src="\report_images\image-20250629195355422.png" alt="image-20250629195355422" style="zoom:67%;" />
 
   ​	**r1**
 
-  ![image-20250627142939109](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627142939109.png)
+  ![image-20250627142939109](\report_images\image-20250627142939109.png)
 
   > Каждый пакет следует определенным узлам вдоль своего пути до достижения цели, пройдя определенное количество таких узлов. При этом у каждого пакета имеется ограниченное время активности, которое определяет количество узлов, через которые он может пройти перед своим исчезновением. Этот параметр записывается в заголовке `TTL`, и каждый промежуточный маршрутизатор, через который проходит пакет, уменьшает его значение на один. Когда значение TTL достигает нуля, пакет уничтожается, и отправителю направляется уведомление о превышении времени.
 
@@ -783,15 +783,15 @@ ping -c 5 10.30.0.111
 
   ​	**ws11**
 
-  ![image-20250627143747391](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627143747391.png)
+  ![image-20250627143747391](\report_images\image-20250627143747391.png)
 
   ​	**r1**
 
-  ![image-20250627143752155](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627143752155.png)
+  ![image-20250627143752155](\report_images\image-20250627143752155.png)
 
 ##### Сохраним дампы образов виртуальных машин:
 
-![image-20250627144027973](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627144027973.png)
+![image-20250627144027973](\report_images\image-20250627144027973.png)
 
 ## Часть 6. Динамическая настройка IP с использованием **DHCP**
 
@@ -824,9 +824,9 @@ subnet 10.20.0.0 netmask 255.255.255.192
 
   ​	**r2**
 
-  ![image-20250627161451643](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627161451643.png)
+  ![image-20250627161451643](\report_images\image-20250627161451643.png)
 
-  ![image-20250627161613423](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627161613423.png)
+  ![image-20250627161613423](\report_images\image-20250627161613423.png)
 
 ##### Перезапустим службу **DHCP** с помощью команды:
 
@@ -836,7 +836,7 @@ systemctl restart isc-dhcp-server
 
 ​	**r2**
 
-![image-20250627161726977](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627161726977.png)
+![image-20250627161726977](\report_images\image-20250627161726977.png)
 
 ##### Перезагрузим машину ws21 с помощью `reboot`и покажем с помощью `ip a`, что она получила адрес: 
 
@@ -844,11 +844,11 @@ systemctl restart isc-dhcp-server
 
   ​	**ws21**
 
-  ![image-20250627162503640](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627162503640.png)
+  ![image-20250627162503640](\report_images\image-20250627162503640.png)
 
   **Также пропингуем ws22 с ws21.**
 
-  ![image-20250627162546913](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627162546913.png)
+  ![image-20250627162546913](\report_images\image-20250627162546913.png)
 
 ##### Укажем MAC-адрес на ws11, добавив в *etc/netplan/00-installer-config.yaml* :
 
@@ -860,25 +860,25 @@ macaddress: 10:10:10:10:10:BA`,`dhcp4: true
 
   ​	**ws11**
 
-  ![image-20250627163515105](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627163515105.png)
+  ![image-20250627163515105](\report_images\image-20250627163515105.png)
 
 ##### Настраиваем r1 так же, как r2, но делаем назначение адресов строго привязанным к MAC-адресу (ws11). Прогоняем те же тесты:
 
 ​        	**r1**
 
-![image-20250628115417392](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628115417392.png)
+![image-20250628115417392](\report_images\image-20250628115417392.png)
 
-![image-20250628115503120](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628115503120.png)
+![image-20250628115503120](\report_images\image-20250628115503120.png)
 
 **Перезагрузим службу DHCP:**
 
-![image-20250628115559082](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628115559082.png)
+![image-20250628115559082](\report_images\image-20250628115559082.png)
 
 **Перезагрузим машину ws11 с помощью `reboot`и покажите с помощью `ip a`, что она получила адрес:** 
 
 ​	**ws11**
 
-![image-20250628120450807](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628120450807.png)
+![image-20250628120450807](\report_images\image-20250628120450807.png)
 
 ##### Запросим обновление IP-адреса у ws21:
 
@@ -886,7 +886,7 @@ macaddress: 10:10:10:10:10:BA`,`dhcp4: true
 
 ​	**ws21**
 
-![image-20250628121156549](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628121156549.png)
+![image-20250628121156549](\report_images\image-20250628121156549.png)
 
 **Освободим текущий enp0s8:**
 
@@ -902,13 +902,13 @@ sudo dhclient enp0s8
 
 ​	**ws21**
 
-![image-20250628121516177](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628121516177.png)
+![image-20250628121516177](\report_images\image-20250628121516177.png)
 
 **Запросим обновление IP-адреса у ws21 после:**
 
 ​	**ws21**
 
-![image-20250628121635756](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628121635756.png)
+![image-20250628121635756](\report_images\image-20250628121635756.png)
 
 > При настройке **DHCP** сервера использовались опции:
 >
@@ -920,7 +920,7 @@ sudo dhclient enp0s8
 
 ##### Сохраним дампы образов виртуальных машин:
 
-![image-20250627144027973](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627144027973.png)
+![image-20250627144027973](\report_images\image-20250627144027973.png)
 
 ## Часть 7. **NАТ**
 
@@ -938,11 +938,11 @@ sudo apt install apache2
 
   ​	**ws22**
 
-  ![image-20250628122600532](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628122600532.png)
+  ![image-20250628122600532](\report_images\image-20250628122600532.png)
 
   ​	**r1**
 
-  ![image-20250628122845767](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628122845767.png)
+  ![image-20250628122845767](\report_images\image-20250628122845767.png)
 
 ##### Запустим веб-сервер Apache на ws22 и r1 с помощью команды:
 
@@ -954,11 +954,11 @@ service apache2 start
 
   ​	**ws22**
 
-  ![image-20250628123025599](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628123025599.png)
+  ![image-20250628123025599](\report_images\image-20250628123025599.png)
 
   ​	**r1**
 
-  ![image-20250628123013617](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628123013617.png)
+  ![image-20250628123013617](\report_images\image-20250628123013617.png)
 
 ##### Добавим следующие правила в брандмауэр на r2:
 
@@ -968,7 +968,7 @@ service apache2 start
 
 ##### 3) отбросить все маршрутизируемые пакеты —`iptables --policy FORWARD DROP`
 
-![image-20250629230459984](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629230459984.png)
+![image-20250629230459984](\report_images\image-20250629230459984.png)
 
 ##### Запустим файл:.
 
@@ -992,17 +992,17 @@ ping -c 5 10.10.0.1
 
   ​	**ws22**
 
-  ![image-20250628124031659](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628124031659.png)
+  ![image-20250628124031659](\report_images\image-20250628124031659.png)
 
   ​	**r1**
 
-  ![image-20250628124047838](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628124047838.png)
+  ![image-20250628124047838](\report_images\image-20250628124047838.png)
 
 ##### Добавим еще одно правило в файл:
 
 ##### 4) разрешить маршрутизацию всех пакетов протокола **ICMP**
 
-![image-20250629230652491](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629230652491.png)
+![image-20250629230652491](\report_images\image-20250629230652491.png)
 
 **Запустим файл:**
 
@@ -1021,7 +1021,7 @@ ping -c 5 10.10.0.1
 
 ​	**ws22**
 
-![image-20250628131922330](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628131922330.png)
+![image-20250628131922330](\report_images\image-20250628131922330.png)
 
 **Добавим в файл еще два правила:**
 
@@ -1039,7 +1039,7 @@ ping -c 5 10.10.0.1
 
   ​	**r2**
 
-  ![image-20250629231750212](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250629231750212.png)
+  ![image-20250629231750212](\report_images\image-20250629231750212.png)
 
 ##### Запустим файл:
 
@@ -1062,15 +1062,15 @@ telnet 10.100.0.12 8080
 
 - Скриншоты с вызовом и выводом использованных команд.
 
-  <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628135147920.png" alt="image-20250628135147920" style="zoom: 33%;" />
+  <img src="\report_images\image-20250628135147920.png" alt="image-20250628135147920" style="zoom: 33%;" />
 
-<img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628135250160.png" alt="image-20250628135250160" style="zoom: 50%;" />
+<img src="\report_images\image-20250628135250160.png" alt="image-20250628135250160" style="zoom: 50%;" />
 
 > Несмотря на то, что telnet считается устаревшим протоколом, утилита `telnet` остается полезным инструментом в арсенале DevOps инженера для быстрой диагностики сетевых сервисов.
 
 ##### Сохраним дампы образов виртуальных машин:
 
-![image-20250627144027973](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627144027973.png)
+![image-20250627144027973](\report_images\image-20250627144027973.png)
 
 ## Часть 8. Бонус. Введение в **SSH-туннели**
 
@@ -1078,11 +1078,11 @@ telnet 10.100.0.12 8080
 
 ##### Запустим брандмауэр на r2 с правилами из Части 7:
 
-![image-20250628135456935](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628135456935.png)
+![image-20250628135456935](\report_images\image-20250628135456935.png)
 
 ##### Запустим веб-сервер **Apache** на ws22 только на локальном хосте (т.е. в файле */etc/apache2/ports.conf* измените строку `Listen 80`на `Listen localhost:80`):
 
-![image-20250628135547700](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250628135547700.png)
+![image-20250628135547700](\report_images\image-20250628135547700.png)
 
 ##### Используем локальную переадресацию TCP с ws21 на ws22 для доступа к веб-серверу на ws22 из ws21:
 
@@ -1098,10 +1098,10 @@ $ ssh -R 4444:localhost:80 -p 22 ws11
 
 ##### Чтобы проверить, работает ли соединение на обоих предыдущих шагах, перейдем во второй терминал (например, с помощью Alt + F2) и выполните `telnet 127.0.0.1 [local port]`команду.
 
-![image-20250704180218381](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250704180218381.png)
+![image-20250704180218381](\report_images\image-20250704180218381.png)
 
 > SSH-туннели — это мощный инструмент для безопасного доступа к ресурсам, который DevOps инженеры используют для решения различных задач, от обхода фаерволов до безопасного доступа к внутренним сервисам.
 
 ##### Сохраним дампы образов виртуальных машин:
 
-![image-20250627144027973](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250627144027973.png)
+![image-20250627144027973](\report_images\image-20250627144027973.png)
