@@ -1,0 +1,9 @@
+services:
+  app:
+    container_name: first_container
+    build: ./first_server/
+  nginx:
+    container_name: nginx
+    build: ./nginx/
+    ports:
+      - "80:8080"
