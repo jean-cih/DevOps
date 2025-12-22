@@ -1,0 +1,61 @@
+stages:
+  - build
+  - style
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  tags: 
+    - build
+  script:
+    - cd src/SimpleBashUtils/src/cat && make
+    - cd ../grep && make
+  after_script:
+    - bash src/cicd_bot.sh "build"
+  artifacts:
+   paths:
+      - src/SimpleBashUtils/src/cat/s21_cat
+      - src/SimpleBashUtils/src/grep/s21_grep
+   expire_in: 30 days
+
+style_job:
+  stage: style
+  tags:
+    - style
+  script:
+    - cd src/SimpleBashUtils/src/cat && make clang_check
+    - cd ../grep  && make clang_check
+  after_script:
+    - bash src/cicd_bot.sh "style"
+
+test_cat_job:
+  stage: test
+  tags:
+    - test
+  script:
+    - cd src/SimpleBashUtils/src/cat && bash tests/test.sh
+  after_script:
+    - bash src/cicd_bot.sh "test_cat"
+
+test_grep_job:
+  stage: test
+  tags:
+    - test
+  script:
+    - cd src/SimpleBashUtils/src/grep && bash tests/test.sh
+  after_script:
+    - bash src/cicd_bot.sh "test_grep"
+
+deploy_job:
+  stage: deploy
+  tags: 
+    - deploy
+  script:
+    - cd src
+    - chmod +x deploy.sh
+    - bash deploy.sh
+  when: manual
+  after_script:
+    - bash src/cicd_bot.sh "deploy"
+
